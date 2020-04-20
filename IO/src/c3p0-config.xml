@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+
+	<default-config>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://47.94.1.12:3306/xueliang?characterEncoding=utf-8</property>
+		<property name="user">haiyang</property>
+		<property name="password">123</property>
+		<property name="initialPoolSize">5</property>
+		<property name="maxPoolSize">20</property>
+	</default-config>
+	<named-config name="itheima">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://47.94.1.12:3306/xueliang?characterEncoding=utf-8</property>
+		<property name="user">haiyang</property>
+		<property name="password">123</property>
+	</named-config>
+	
+</c3p0-config>
